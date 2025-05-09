@@ -1,0 +1,57 @@
+\documentclass[12pt, openright, oneside, a4paper, english, brazil]{abntex2}
+\usepackage[noredefwarn]{glossaries}
+\makeglossaries
+\usepackage[
+    alf,
+    abnt-emphasize=bf % títulos em negrito na bibliografia
+]{abntex2cite} % Citações padrão ABNT
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setromanfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\renewcommand{\ABNTEXchapterfontsize}{\LARGE} % default: Huge
+\renewcommand{\ABNTEXsectionfontsize}{\Large} % default: Large
+\renewcommand{\ABNTEXsubsectionfontsize}{\large} % default: large
+
+\usepackage{tocloft}
+\usepackage{indentfirst} % Indenta a primeira linha de um bloco de texto com um ou mais parágrafos. Apenas afeta a primeira linha.
+\usepackage{hyperref}
+
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\-\do\.\do\_} % faz quebra de linha das URL em - . e _ para não dar problemas de URL longa estourar o limite de largura de página.
+
+\input{conteudo/commands}
+
+\begin{document}
+\pagenumbering{roman}
+
+\input{conteudo/capa}
+\input{conteudo/monografia/contracapa}
+\input{conteudo/licença}
+\input{conteudo/monografia/folha_aprovacao}
+\input{conteudo/monografia/dedicatoria}
+\input{conteudo/monografia/agradecimentos}
+\input{conteudo/monografia/epigrafe}
+\input{conteudo/monografia/siglas}
+\input{conteudo/resumo/resumo}
+\input{conteudo/monografia/sumario}
+
+\textual
+
+\newpage
+\pagenumbering{arabic}
+
+\input{conteudo/monografia/introducao}
+
+\input{conteudo/monografia/capitulos/1}
+\input{conteudo/monografia/capitulos/2}
+\input{conteudo/monografia/capitulos/3}
+
+\input{conteudo/monografia/consideracoes_finais}
+
+\postextual
+
+\input{conteudo/referencias/bibliografia}
+
+\end{document}

@@ -1,0 +1,9 @@
+\newpage
+
+\renewcommand{\tocheadstart}{\ABNTEXchapterfont}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} % evita sumário no próprio sumário
+\tableofcontents
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} % restaura profundidade
+
+\clearpage % Garante que o que vier depois virá em uma nova página

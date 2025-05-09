@@ -1,0 +1,61 @@
+\documentclass[12pt, openright, oneside, a4paper, english, brazil]{abntex2}
+\usepackage[
+    alf,
+    abnt-emphasize=bf % títulos em negrito na bibliografia
+]{abntex2cite} % Citações padrão ABNT
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setromanfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+
+\usepackage{tocloft}
+\usepackage{indentfirst} % Indenta a primeira linha de um bloco de texto com um ou mais parágrafos. Apenas afeta a primeira linha.
+\usepackage{hyperref}
+\usepackage{float}
+
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\-\do\.\do\_} % faz quebra de linha das URL em - . e _ para não dar problemas de URL longa estourar o limite de largura de página.
+
+\input{conteudo/commands}
+
+\begin{document}
+
+\input{conteudo/capa}
+
+\newpage
+\begin{center}
+    \textbf{\MakeUppercase{\imprimirautor}}
+    \vskip 5.5cm
+
+    \textbf{\MakeUppercase{\imprimirtitulo}:} \subtema
+
+    \vskip 5.5cm
+\end{center}
+    \begin{flushright}
+        \begin{minipage}{0.55\textwidth}
+            Resumo do Projeto de Pesquisa apresentado ao \instituicao, em cumprimento a exigências da disciplina \textbf{Monografia 1}, do curso de Bacharel em Teologia.
+        \end{minipage}
+    \end{flushright}
+    \vskip 3.0cm
+\begin{center}
+    \vfill
+    \imprimirlocal \\
+    \imprimirdata
+\end{center}
+
+\newpage
+\begin{center}
+    \large \textbf{RESUMO}
+\end{center}
+
+\vspace{1cm}
+
+\input{conteudo/resumo/pt_BR.txt}
+
+\vspace{0.5cm}
+
+\noindent
+\textbf{Palavras-chave:} \palavrasChave
+
+\end{document}

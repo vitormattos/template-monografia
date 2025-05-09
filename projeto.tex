@@ -1,0 +1,93 @@
+\documentclass[12pt, openright, oneside, a4paper, english, brazil]{abntex2}
+\usepackage[
+    alf,
+    abnt-emphasize=bf % títulos em negrito na bibliografia
+]{abntex2cite} % Citações padrão ABNT
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setromanfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\renewcommand{\ABNTEXchapterfontsize}{\LARGE} % default: Huge
+\renewcommand{\ABNTEXsectionfontsize}{\Large} % default: Large
+\renewcommand{\ABNTEXsubsectionfontsize}{\large} % default: large
+
+\usepackage{tocloft}
+\usepackage{indentfirst} % Indenta a primeira linha de um bloco de texto com um ou mais parágrafos. Apenas afeta a primeira linha.
+\usepackage{hyperref}
+\usepackage{float}
+
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\-\do\.\do\_} % faz quebra de linha das URL em - . e _ para não dar problemas de URL longa estourar o limite de largura de página.
+
+\input{conteudo/commands}
+
+\begin{document}
+
+\input{conteudo/capa}
+\input{conteudo/projeto/contracapa}
+\input{conteudo/licença}
+
+\newpage
+\pagestyle{plain}
+\pagenumbering{arabic}
+\renewcommand{\baselinestretch}{1.5}
+\normalsize
+
+\noindent
+\textbf{Tema:} \imprimirtitulo
+
+\noindent
+\textbf{Sinopse:} Este projeto apresenta um modelo orientativo para elaboração de projetos monográficos em seminários teológicos. Ele inclui estrutura sugerida, linguagem acadêmica compatível com a tradição reformada e um toque irônico para manter a sanidade ao longo da jornada. O conteúdo serve como base para seminaristas que desejam organizar suas ideias sem perder a ortodoxia — nem os prazos.
+
+\noindent
+\textbf{Problema:} Como estruturar uma pesquisa teológica coerente, com base bíblica, clareza metodológica e risco mínimo de heresia ou reprovação?
+
+\noindent
+\textbf{Hipóteses:}
+\begin{enumerate}
+  \item Um tema claro e biblicamente fundamentado facilita a construção de uma monografia sólida;
+  \item A metodologia bem definida é metade da salvação acadêmica;
+  \item A fidelidade doutrinária não exclui organização, revisão textual e formatação conforme a ABNT.
+\end{enumerate}
+
+\noindent
+\textbf{Justificativa:} Muitos seminaristas dominam a Teologia Sistemática, mas tropeçam na Introdução Metodológica. Este modelo busca servir como guia prático e teológico, ajudando o estudante a escrever com reverência e coerência, sem confundir argumentação exegética com devocional pessoal (embora ambos tenham seu lugar).
+
+\noindent
+\textbf{Objetivo geral:} Oferecer uma estrutura exemplo para projetos monográficos em seminários teológicos, conciliando ortodoxia, clareza e bom humor.
+
+\noindent
+\textbf{Objetivos específicos:}
+\begin{itemize}
+  \item Demonstrar a aplicação de linguagem acadêmica em contexto teológico;
+  \item Ilustrar a organização formal de um projeto segundo a ABNT;
+  \item Fornecer um roteiro que o seminarista possa adaptar ao seu próprio tema.
+\end{itemize}
+
+\noindent
+\textbf{Fundamentação teórica:} A estrutura eclesiástica presbiteriana exige que tudo seja feito “com decência e ordem” (\textit{1Co 14.40}, NAA). Assim também deve ser com os trabalhos acadêmicos. A CFW, em seu capítulo I, destaca que toda a verdade está na Escritura — mas a bibliografia organizada ajuda bastante.
+
+Calvino afirma que “Deus fala com clareza”, e, portanto, o seminarista também deveria tentar \cite[p.~453]{calvinoInstitutas}. A escrita teológica exige responsabilidade, humildade, revisão gramatical e — ocasionalmente — café e jejum.
+
+\noindent
+\textbf{Sumário preliminar:}
+\begin{itemize}
+  \item \textbf{Capítulo 1} – O tema e sua fundamentação bíblico-teológica;
+  \item \textbf{Capítulo 2} – Discussão doutrinária ou histórica relevante;
+  \item \textbf{Capítulo 3} – Aplicações e implicações pastorais ou práticas.
+\end{itemize}
+
+\noindent
+\textbf{Metodologia:}
+\begin{enumerate}
+  \item Levantamento bibliográfico de fontes confiáveis e com ortodoxia comprovada (preferencialmente reformada);
+  \item Organização do conteúdo em introdução, desenvolvimento e conclusão;
+  \item Aplicação das normas da ABNT, mesmo quando a vontade for ignorá-las;
+  \item Submissão à orientação e à correção, como exercício de santificação acadêmica.
+\end{enumerate}
+
+\input{conteudo/projeto/cronograma}
+\input{conteudo/referencias/bibliografia}
+
+\end{document}

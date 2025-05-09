@@ -1,0 +1,24 @@
+\newcommand{\resumoIdioma}[1]{%
+  \newpage
+  \pretextualchapter{%
+      \ifstrequal{#1}{pt_BR}{Resumo}{%
+      \ifstrequal{#1}{en_US}{Abstract}{#1}}
+  }
+
+  \vspace{1cm}
+  \begin{sloppypar}
+  \input{conteudo/resumo/#1.txt}
+  \end{sloppypar}
+
+  \vspace{0.5cm}
+  \noindent
+  \ifstrequal{#1}{pt_BR}{
+    \textbf{Palavras-chave:} \textit{\palavrasChave}
+  }{
+    \ifstrequal{#1}{en_US}{
+      \textbf{Keywords:} \textit{\keywords}
+    }{}}
+}
+
+\resumoIdioma{pt_BR}
+\resumoIdioma{en_US}
