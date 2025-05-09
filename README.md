@@ -4,8 +4,8 @@ Base para ser utilizada para construção de trabalho monográfico nos seminári
 
 | Formato | Acesso |
 |--------|--------|
-| PDF    | [![Download PDF](https://img.shields.io/badge/baixar-pdf-blue?style=flat&logo=readthedocs)](https://vitormattos.github.io/monografia-teologia/monografia.pdf) |
-| Overleaf | [![Overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white)](https://www.overleaf.com/read/vzwycrgmdtty#e2ef1e) |
+| PDF    | [![Download PDF](https://img.shields.io/badge/baixar-pdf-blue?style=flat&logo=readthedocs)](https://vitormattos.github.io/template-monografia/monografia.pdf) |
+| Overleaf | [![Overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white)](https://www.overleaf.com/read/tsjjnvkjmwkz#44d04c) |
 
 > *Este trabalho é dedicado aos que resistiram até o final. Ao texto, ao curso, aos reverendíssimos professores e ao presbitério.*
 
