@@ -27,15 +27,6 @@ Caso queira, também pode sincronizar este projeto com o GitHub, recomendo para 
 
 ## Licença
 
-**Os desafios da escrita teológica no seminário: uma abordagem ortodoxamente angustiada**, 
-por [Vitor Mattos de Souza](https://github.com/vitormattos) está licenciado sob a  
-[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
-
-Você pode compartilhar, adaptar e usar este material para inspirar sua própria monografia —  
-desde que cite a fonte, respeite os presbíteros e mantenha o sumário no lugar certo.
-
-## Licença
-
 [Modelo de monografia](https://github.com/vitormattos/monografia-teologia/)  
 por [Vitor Mattos de Souza](https://github.com/vitormattos) está licenciado sob a  
 [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
